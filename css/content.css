@@ -1,0 +1,42 @@
+body {
+  	padding-top: 50px;
+	color: #333;
+	font-family: "Courier New";
+	background-color: #E8E6E8;
+	background: url("../img/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+
+}
+
+.starter-template {
+ 	padding: 20% 15px 20px 15px;
+ 	text-align: center;
+}
+
+.nav-list {
+	padding-left: 0px;
+	text-align: center;
+}
+
+.nav-list li {
+	display: inline;
+}
+/* ~~~Animation~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#header {
+	opacity: 1;
+	position:relative;
+	-webkit-animation:myfirst 2s; /* Chrome, Safari, Opera */
+	animation:myfirst 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+	0%  {opacity: 0.2; top:200px;}
+	100% {opacity: 1;top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+	0%  {opacity: 0.2; top:200px;}
+	100% {opacity: 1; top:0px;}
+}
