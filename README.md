@@ -3,6 +3,24 @@ domjacks1.github.io
 
 Personal site to practice bits of web development.
 
+Started with the [gatsby/gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world) starter.
+
+## Running Locally
+To start the Gatsby development server run:
+```
+$ npm develop
+```
+
+To build the code ready for Production, run:
+```
+$ npm develop
+```
+
+To deploy the site to Github Pages run:
+```
+$ npm deploy
+```
+
 ---
 
 <p align="center">
