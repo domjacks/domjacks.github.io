@@ -1,5 +1,4 @@
-domjacks1.github.io
--------------------
+# domjacks1.github.io
 
 Personal site to practice bits of web development.
 
