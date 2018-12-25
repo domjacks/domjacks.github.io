@@ -1,0 +1,26 @@
+{
+  "name": "domjacks1.github.io",
+  "description": "Dom Jackson's Personal Site built using Gatsby",
+  "version": "0.1.0",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "gatsby": "^2.0.75",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-icons": "^3.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domjacks1/domjacks1.github.io"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
