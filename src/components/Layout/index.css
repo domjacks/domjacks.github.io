@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Layout-main {
+  min-height: 100vh;
+  font-family: "Impact", "Courier New", "Courier", serif;
+  color: #454545;
+  background-color: orange;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
