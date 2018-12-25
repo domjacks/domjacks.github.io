@@ -1,8 +1,14 @@
 # domjacks1.github.io
+[![Build Status](https://travis-ci.org/domjacks1/domjacks1.github.io.svg?branch=develop)](https://travis-ci.org/domjacks1/domjacks1.github.io)
 
 Personal site to practice bits of web development.
 
 Started with the [gatsby/gatsby-starter-hello-world](https://github.com/gatsbyjs/gatsby-starter-hello-world) starter.
+
+## Deployment
+This repository uses a [Travis CI job](https://travis-ci.org/domjacks1/domjacks1.github.io).
+Source code is stored on the `develop` branch and changes are pushed to the `master` branch.
+
 
 ## Running Locally
 To start the Gatsby development server run:
