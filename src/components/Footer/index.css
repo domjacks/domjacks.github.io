@@ -1,0 +1,13 @@
+.Footer-main {
+  min-height: 2vh;
+  background-color: black;
+  font-family: Arial;
+  font-size: 0.9em;
+  color: white;
+  text-align: right;
+
+}
+
+.Footer-main a {
+  color: white;
+}
