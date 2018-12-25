@@ -11,7 +11,7 @@ notifications:
 node_js:
   - '10'
 script:
-  - npm build
+  - npm run build
 deploy:
   provider: pages
   skip-cleanup: true
