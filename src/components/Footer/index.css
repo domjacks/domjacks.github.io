@@ -1,11 +1,18 @@
 .Footer-main {
-  min-height: 2vh;
+  min-height: 3vh;
   background-color: black;
   font-family: Arial;
   font-size: 0.9em;
   color: white;
-  text-align: right;
 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.Footer-child p {
+  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .Footer-main a {
