@@ -16,7 +16,7 @@ const Bio = () => (
       <FaMedium />
     </a>
     <a
-      href="https://github.com/domjacks1"
+      href="https://github.com/domjacks"
       target="_blank"
       rel="noopener noreferrer"
       className="Bio-social"
