@@ -1,5 +1,5 @@
 {
-  "name": "domjacks1.github.io",
+  "name": "domjacks.github.io",
   "description": "Dom Jackson's Personal Site built using Gatsby",
   "version": "0.1.0",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/domjacks1/domjacks1.github.io"
+    "url": "https://github.com/domjacks/domjacks.github.io"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
