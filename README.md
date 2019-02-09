@@ -18,7 +18,7 @@ $ npm develop
 
 To build the code ready for Production, run:
 ```
-$ npm develop
+$ npm build
 ```
 
 To deploy the site to Github Pages run:
