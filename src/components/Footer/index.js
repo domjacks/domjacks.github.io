@@ -1,5 +1,4 @@
 import React from "react";
-import { OutboundLink } from "gatsby-plugin-gtag";
 
 import "./index.css";
 
@@ -12,15 +11,9 @@ const Footer = () => (
     </div>
     <div className="Footer-child">
       <p>
-        Made using{" "}
-        <OutboundLink href="https://www.gatsbyjs.org/">GatsbyJS</OutboundLink>,
-        built with{" "}
-        <OutboundLink href="https://travis-ci.org/">Travis CI</OutboundLink> and
-        hosted on{" "}
-        <OutboundLink href="https://pages.github.com/">
-          Github Pages
-        </OutboundLink>
-        .
+        Made using <a href="https://www.gatsbyjs.org/">GatsbyJS</a>, built with{" "}
+        <a href="https://travis-ci.org/">Travis CI</a> and hosted on{" "}
+        <a href="https://pages.github.com/">Github Pages</a>.
       </p>
     </div>
   </div>
