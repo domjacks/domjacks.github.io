@@ -3,6 +3,7 @@
   text-align: center;
   font-size: calc(10px + 1vmin);
   padding: 5%;
+  margin: 1%;
   background-color: #FBFBFB;
   box-shadow: 10px 10px;
 }
@@ -14,7 +15,7 @@
 }
 
 .Bio-avatar {
-  height: "20em"
+  max-width: 100%
 }
 
 .Bio-social {
