@@ -13,6 +13,10 @@
   letter-spacing: 0.3em;
 }
 
+.Bio-avatar {
+  height: "20em"
+}
+
 .Bio-social {
   font-size: calc(10px + 3vmin);
   padding: 0 10px;
