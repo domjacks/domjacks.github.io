@@ -6,7 +6,7 @@ import "./index.css";
 
 const Bio = () => (
   <div className="Bio-main">
-    <img src="./avatar.png" alt="dom's avatar" className="Bio-avatar" />
+    <img src="./dom.jpeg" alt="dom's avatar" className="Bio-avatar" />
     <h1 className="Bio-h1">DOM JACKSON</h1>
     <h2>
       <span role="img" aria-label="lightning">
