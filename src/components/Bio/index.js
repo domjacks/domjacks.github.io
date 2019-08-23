@@ -1,6 +1,6 @@
 import React from "react";
-
 import { FaMedium, FaGithub } from "react-icons/fa";
+import { OutboundLink } from "gatsby-plugin-gtag";
 
 import "./index.css";
 
@@ -17,22 +17,22 @@ const Bio = () => (
         ⚡️
       </span>
     </h2>
-    <a
+    <OutboundLink
       href="https://medium.com/@domjackson"
       target="_blank"
       rel="noopener noreferrer"
       className="Bio-social"
     >
       <FaMedium />
-    </a>
-    <a
+    </OutboundLink>
+    <OutboundLink
       href="https://github.com/domjacks"
       target="_blank"
       rel="noopener noreferrer"
       className="Bio-social"
     >
       <FaGithub />
-    </a>
+    </OutboundLink>
   </div>
 );
 
