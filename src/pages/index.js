@@ -19,6 +19,18 @@ const IndexPage = () => (
       <meta name="theme-color" content="#ffa500" />
 
       <link rel="manifest" href="/manifest.json" />
+
+      <script>
+        {`
+          // Check that service workers are supported
+          if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/sw.js');
+            })
+          }
+        `}
+      </script>
     </Helmet>
     <Layout>
       <Bio />
