@@ -21,6 +21,7 @@ const Bio = () => (
       target="_blank"
       rel="noopener noreferrer"
       className="Bio-social"
+      aria-label="Dom Jackson's Medium page"
     >
       <FaMedium />
     </a>
@@ -29,6 +30,7 @@ const Bio = () => (
       target="_blank"
       rel="noopener noreferrer"
       className="Bio-social"
+      aria-label="Dom Jackson's GitHub page"
     >
       <FaGithub />
     </a>
