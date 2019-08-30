@@ -1,10 +1,12 @@
 import React from "react";
 import { FaMedium, FaGithub } from "react-icons/fa";
 
+import Card from "../Card";
+
 import "./index.css";
 
 const Bio = () => (
-  <div className="Bio-main">
+  <Card>
     <img src="./dom.jpeg" alt="dom's avatar" className="Bio-avatar" />
     <h1 className="Bio-h1">DOM JACKSON</h1>
     <h2>
@@ -34,7 +36,7 @@ const Bio = () => (
     >
       <FaGithub />
     </a>
-  </div>
+  </Card>
 );
 
 export default Bio;
