@@ -23,6 +23,8 @@
     "url": "https://github.com/domjacks/domjacks.github.io"
   },
   "devDependencies": {
+    "@codechecks/client": "^0.1.7",
+    "@codechecks/lighthouse-keeper": "^0.1.2",
     "gh-pages": "^2.0.1"
   }
 }

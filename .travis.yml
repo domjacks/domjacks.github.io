@@ -10,6 +10,8 @@ node_js:
   - "10"
 script:
   - npm run build
+after_success:
+  - npx codechecks
 deploy:
   provider: pages
   skip-cleanup: true
