@@ -9,7 +9,7 @@ const IndexPage = () => (
     <Helmet>
       <meta charSet="utf-8" />
       <title>Dom Jackson</title>
-      <link rel="canonical" href="https://domjacks1.github.io/" />
+      <link rel="canonical" href="https://www.domjackson.xyz" />
     </Helmet>
     <Layout>
       <Bio />
