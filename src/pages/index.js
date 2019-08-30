@@ -12,7 +12,12 @@ const IndexPage = () => (
       <title>Dom Jackson</title>
       <meta name="description" content="Dom Jackson's personal site"></meta>
       <link rel="canonical" href="https://www.domjackson.xyz" />
+
       <link rel="icon" type="image/png" href="/favicon.png" />
+      <link rel="apple-touch-icon" href="icons-192.png" />
+
+      <meta name="theme-color" content="#ffa500" />
+
       <link rel="manifest" href="/manifest.json" />
     </Helmet>
     <Layout>
