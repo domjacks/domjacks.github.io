@@ -7,6 +7,7 @@ import Bio from "../components/Bio";
 const IndexPage = () => (
   <div>
     <Helmet>
+      <html lang="en" />
       <meta charSet="utf-8" />
       <title>Dom Jackson</title>
       <link rel="canonical" href="https://www.domjackson.xyz" />
