@@ -10,6 +10,7 @@ const IndexPage = () => (
       <html lang="en" />
       <meta charSet="utf-8" />
       <title>Dom Jackson</title>
+      <meta name="description" content="Dom Jackson's personal site"></meta>
       <link rel="canonical" href="https://www.domjackson.xyz" />
     </Helmet>
     <Layout>
