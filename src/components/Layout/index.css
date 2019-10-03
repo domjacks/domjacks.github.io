@@ -7,7 +7,7 @@ body {
 .Layout-main {
   min-height: 97vh;
   color: #454545;
-  background-color: orange;
+  background-color: #ffbd69;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
