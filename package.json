@@ -7,8 +7,11 @@
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/domjacks/domjacks.github.io"
   },
   "dependencies": {
     "gatsby": "^2.19.12",
@@ -17,10 +20,6 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-icons": "^3.9.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/domjacks/domjacks.github.io"
   },
   "devDependencies": {
     "@codechecks/client": "^0.1.10",
