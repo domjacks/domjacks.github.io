@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "gatsby": "^2.19.12",
-    "gatsby-plugin-react-helmet": "^3.0.5",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
-    "react-helmet": "^5.2.0",
-    "react-icons": "^3.2.2"
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.9.0"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
   "devDependencies": {
     "@codechecks/client": "^0.1.10",
     "@codechecks/lighthouse-keeper": "^0.1.2",
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }
