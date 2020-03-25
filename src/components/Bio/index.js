@@ -7,7 +7,7 @@ import "./index.css";
 
 const Bio = () => (
   <Card>
-    <img src="./dom.jpeg" alt="dom's avatar" className="Bio-avatar" />
+    <img src="./dom.jpg" alt="dom's avatar" className="Bio-avatar" />
     <h1 className="Bio-h1">DOM JACKSON</h1>
     <h2>SOFTWARE DEVELOPER</h2>
     <a
