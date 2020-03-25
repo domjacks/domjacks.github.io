@@ -11,7 +11,7 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
-    "gatsby": "^2.0.75",
+    "gatsby": "^2.20.6",
     "gatsby-plugin-react-helmet": "^3.0.5",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
@@ -23,7 +23,7 @@
     "url": "https://github.com/domjacks/domjacks.github.io"
   },
   "devDependencies": {
-    "@codechecks/client": "^0.1.7",
+    "@codechecks/client": "^0.1.10",
     "@codechecks/lighthouse-keeper": "^0.1.2",
     "gh-pages": "^2.0.1"
   }
