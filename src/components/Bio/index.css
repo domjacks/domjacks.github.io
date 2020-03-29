@@ -4,12 +4,6 @@
   letter-spacing: 0.1em;
 }
 
-.Bio-avatar {
-  border-radius: 50%;
-  max-width: 100%;
-  height: 250px;
-}
-
 .Bio-social {
   font-size: calc(10px + 3vmin);
   padding: 0 10px;
