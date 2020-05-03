@@ -4,7 +4,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dom Jackson 2`,
+        name: `Dom Jackson`,
         short_name: `Dom`,
         start_url: `/`,
         background_color: `#ffa500`,
