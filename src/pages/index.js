@@ -12,27 +12,6 @@ const IndexPage = () => (
       <title>Dom Jackson</title>
       <meta name="description" content="Dom Jackson's personal site"></meta>
       <link rel="canonical" href="https://www.domjackson.xyz" />
-
-      <link rel="icon" type="image/png" href="/favicon.png" />
-      <link rel="apple-touch-icon" href="icons-192.png" />
-
-      <meta name="theme-color" content="#ffa500" />
-
-      <link rel="manifest" href="/manifest.json" />
-
-      <script>
-        {`
-          // Check that service workers are supported
-          if ('serviceWorker' in navigator) {
-            // Use the window load event to keep the page load performant
-            window.addEventListener('load', () => {
-              navigator.serviceWorker
-                .register('/sw.js')
-                .then(function() { console.log("Service Worker Registered"); });
-            })
-          }
-        `}
-      </script>
     </Helmet>
     <Layout>
       <Bio />
