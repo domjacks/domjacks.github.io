@@ -10,7 +10,7 @@ const Bio = () => (
     <h1 className="Bio-h1">DOM JACKSON</h1>
     <h2>SOFTWARE DEVELOPER</h2>
     <a
-      href="https://medium.com/@domjackson"
+      href="https://medium.com/@domjacks"
       target="_blank"
       rel="noopener noreferrer"
       className="Bio-social"
