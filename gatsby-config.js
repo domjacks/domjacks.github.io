@@ -13,6 +13,6 @@
         icon: `src/images/icons-512.png`, // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline'
+    `gatsby-plugin-offline`
   ];
 }
