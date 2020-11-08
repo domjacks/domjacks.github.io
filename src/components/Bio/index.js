@@ -9,6 +9,7 @@ const Bio = () => (
   <Card>
     <h1 className="Bio-h1">DOM JACKSON</h1>
     <h2>SOFTWARE DEVELOPER</h2>
+    <p>👋 hello@domjackson.xyz</p>
     <a
       href="https://medium.com/@domjacks"
       target="_blank"
