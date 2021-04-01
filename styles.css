@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Impact", "Courier New", "Courier", serif;
+  }
+  
+.Layout-main {
+  min-height: 96vh;
+  color: #454545;
+  background-color: #ffbd69;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card-main {
+  height: 2%;
+  text-align: center;
+  font-size: calc(10px + 1vmin);
+  padding: 5% 10%;
+  margin: 1%;
+  background-color: #FBFBFB;
+  box-shadow: 10px 10px;
+}
+
+
+.Bio-h1 {
+  font-weight: normal;
+  font-size: calc(10px + 5vmin);
+  letter-spacing: 0.1em;
+}
+
+.Bio-social {
+  font-size: calc(10px + 3vmin);
+  padding: 0 10px;
+  color: #454545;
+}
+
+.Bio-social:hover {
+  color: black;
+}
+
+.Footer-main {
+  min-height: 4vh;
+  background-color: black;
+  font-family: Arial;
+  font-size: 0.9em;
+  color: white;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+  
+.Footer-child p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.Footer-main a {
+  color: white;
+}
+  
