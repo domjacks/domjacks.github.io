@@ -5,7 +5,7 @@ body {
   }
   
 .Layout-main {
-  min-height: 96vh;
+  min-height: 100vh;
   color: #454545;
   background-color: #ffbd69;
   display: flex;
@@ -44,25 +44,3 @@ body {
 .Bio-social:hover {
   color: black;
 }
-
-.Footer-main {
-  min-height: 4vh;
-  background-color: black;
-  font-family: Arial;
-  font-size: 0.9em;
-  color: white;
-
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-}
-  
-.Footer-child p {
-  margin-top: 5px;
-  margin-bottom: 0px;
-}
-
-.Footer-main a {
-  color: white;
-}
-  
