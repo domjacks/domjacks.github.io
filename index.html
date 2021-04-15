@@ -64,10 +64,11 @@
 </body>
 
 <script>
-    navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        for(let registration of registrations) {
-        registration.unregister()
-    } })
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/sw.js');
+        });
+    }
 </script>
 
 </html>
