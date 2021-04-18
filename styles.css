@@ -14,7 +14,7 @@ body {
   justify-content: center;
 }
 
-.bio-main {
+.card-main {
   height: 2%;
   text-align: center;
   font-size: calc(10px + 1vmin);
