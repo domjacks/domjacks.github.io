@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Dom Jackson</title>
 
-    <title>Dom Jackson</title>
-    <meta name="description" content="Dom Jackson's personal site">
-    </meta>
-    <link rel="canonical" href="https://www.domjackson.xyz" />
+        <meta name="author" content="Dom Jackson">
+        <meta name="description" content="Dom Jackson's personal site">
+        <link rel="canonical" href="https://www.domjackson.xyz">
 
-    <link rel="stylesheet" href="styles.css">
+        <meta property="og:image" content="https://www.domjackson.xyz/icons/icon-256x256.png">
+        <meta property="og:title" content="Dom Jackson">
+        <meta property="og:description" content="Dom Jackson is a Software Engineer from the UK">
 
-    <link rel="icon" href="icons/favicon-32x32.png" />
-    <link rel="manifest" href="manifest.json" />
+        <link rel="stylesheet" href="styles.css">
 
-    <meta name="theme-color" content="#ffa500" />
-    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png" />
-    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png" />
-    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png" />
-    <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png" />
-    <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png" />
-    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png" />
+        <link rel="icon" href="icons/favicon-32x32.png">
+        <link rel="manifest" href="manifest.json">
 
-</head>
+        <meta name="theme-color" content="#ffa500">
+        <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png">
+        <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png">
+        <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png">
+    </head>
 
-<body>
-    <div>
+    <body>
         <div class="layout-main">
             <section class="card-main bio">
                 <p class="bio-wave"><span role="img" aria-label="wave">👋</span></p>
@@ -61,15 +63,13 @@
                     </svg></a>
             </section>
         </div>
-    </div>
-</body>
+    </body>
 
-<script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-            navigator.serviceWorker.register('/sw.js');
-        });
-    }
-</script>
-
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
 </html>
