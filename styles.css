@@ -15,7 +15,6 @@ body {
 }
 
 .card-main {
-  height: 2%;
   text-align: center;
   font-size: calc(10px + 1vmin);
   padding: 5% 10%;
