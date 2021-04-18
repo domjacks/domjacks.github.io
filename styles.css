@@ -1,8 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Impact", "Courier New", "Courier", serif;
-  }
+    font-family: "Courier New", "Courier", serif;
+    font-size: calc(10px + 1vmin);
+}
+
+h1, h2 {
+  font-family: "Impact", "Courier New", "Courier", serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
   
 .layout-main {
   min-height: 100vh;
@@ -15,23 +22,23 @@ body {
 }
 
 .card-main {
-  text-align: center;
-  font-size: calc(10px + 1vmin);
   padding: 5% 10%;
   margin: 1%;
   background-color: #FBFBFB;
   box-shadow: 10px 10px;
 }
 
+.card-header {
+  font-size: calc(10px + 5vmin);
+}
+
+.bio {
+  text-align: center;
+}
+
 .bio-wave {
   font-size: calc(10px + 6vmin);
   margin: 5px 0;
-}
-
-.bio-h1 {
-  font-weight: normal;
-  font-size: calc(10px + 5vmin);
-  letter-spacing: 0.1em;
 }
 
 .bio-social {
