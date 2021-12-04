@@ -17,4 +17,6 @@ function changeBackgroundColour() {
 }
 
 document.addEventListener('click', changeBackgroundColour);
+document.addEventListener('touchstart', changeBackgroundColour);
+document.addEventListener('touchmove', changeBackgroundColour);
 document.addEventListener('wheel', changeBackgroundColour);
