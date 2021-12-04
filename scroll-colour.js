@@ -3,7 +3,7 @@ let ticking = false;
 function setRandomBackgroundColour() {
     document.querySelector('.layout-main').style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);}
 
-document.addEventListener('scroll', function(e) {
+function changeBackgroundColour() {
   if (!ticking) {
     window.requestAnimationFrame(function() {
         setTimeout(function () {
@@ -14,4 +14,7 @@ document.addEventListener('scroll', function(e) {
 
     ticking = true;
   }
-});
+}
+
+document.addEventListener('click', changeBackgroundColour);
+document.addEventListener('wheel', changeBackgroundColour);
