@@ -12,6 +12,14 @@ h1, h2 {
   letter-spacing: 0.1em;
 }
 
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
 footer {
   margin: 5px 0px;
 }
@@ -43,16 +51,6 @@ footer {
 .bio-wave {
   font-size: calc(10px + 6vmin);
   margin: 5px 0;
-}
-
-.bio-social {
-  font-size: calc(10px + 3vmin);
-  padding: 0 10px;
-  color: #454545;
-}
-
-.bio-social:hover {
-  color: black;
 }
 
 .img-header img {
