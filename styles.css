@@ -11,6 +11,10 @@ h1, h2 {
   font-weight: normal;
   letter-spacing: 0.1em;
 }
+
+footer {
+  margin: 5px 0px;
+}
   
 .layout-main {
   min-height: 100vh;
@@ -58,4 +62,23 @@ h1, h2 {
 .img-header p {
   font-style: italic;
   font-size: 80%;
+}
+
+.flip {
+  animation: animate 2s linear;
+}
+
+@keyframes animate {
+  0% {
+      transform: translate(-50%, -50%) 
+        rotateY(0deg);
+  }
+  50% {
+      transform: translate(-50%, -50%)
+        rotateY(0deg);
+  }
+  100% {
+      transform: translate(-50%, -50%)
+        rotateY(-180deg);
+  }
 }
