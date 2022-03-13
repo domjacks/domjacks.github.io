@@ -33,11 +33,18 @@ footer {
   justify-content: center;
 }
 
-.card-main {
-  padding: 5% 10%;
+.card {
   margin: 1%;
   background-color: #FBFBFB;
   box-shadow: 10px 10px;
+}
+
+.card-main {
+  padding: 5%;
+}
+
+.card-blog {
+  padding: 5% 10%;
 }
 
 .card-header {
