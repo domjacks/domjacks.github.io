@@ -2,15 +2,17 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Courier New", "Courier", serif;
-    font-size: calc(10px + 1vmin);
+    font-size: 1.2rem;
     background-color: #ffbd69;
 }
 
 h1, h2 {
   font-family: "Impact", "Courier New", "Courier", serif;
   font-weight: normal;
-  letter-spacing: 0.1em;
-  margin: 0.5em 0;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0;
+}
+
 }
 
 nav ul {
@@ -53,7 +55,7 @@ footer {
 }
 
 .card-header {
-  font-size: calc(10px + 5vmin);
+  font-size: 3rem;
   margin-top: 1%;
 }
 
@@ -62,7 +64,7 @@ footer {
 }
 
 .bio-wave {
-  font-size: calc(10px + 6vmin);
+  font-size: 4rem;
   margin: 5px 0;
   display: inline-block;
 }
