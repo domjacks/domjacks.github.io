@@ -10,6 +10,7 @@ h1, h2 {
   font-family: "Impact", "Courier New", "Courier", serif;
   font-weight: normal;
   letter-spacing: 0.1em;
+  margin: 0.5em 0;
 }
 
 nav ul {
@@ -21,7 +22,7 @@ nav li {
 }
 
 footer {
-  margin: 5px 0px;
+  margin: 0.5em 0;
 }
   
 .layout-main {
@@ -34,17 +35,17 @@ footer {
 }
 
 .card {
-  margin: 1%;
+  margin: 1em;
   background-color: #FBFBFB;
   box-shadow: 10px 10px;
 }
 
 .card-main {
-  padding: 5%;
+  padding: 2em;
 }
 
 .card-blog {
-  padding: 5% 10%;
+  padding: 4em 8em;
 }
 
 .card-header {
