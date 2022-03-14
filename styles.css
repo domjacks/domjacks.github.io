@@ -13,6 +13,17 @@ h1, h2 {
   margin: 0.5rem 0;
 }
 
+a {
+  color: #454545;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #454545;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 nav ul {
