@@ -40,6 +40,7 @@ figure {
 }
 
 footer {
+  text-align: center;
   margin: 0.5em 0;
 }
   
@@ -58,12 +59,32 @@ footer {
   box-shadow: 10px 10px;
 }
 
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+  }
+
+  a {
+    color: #eee
+  }
+
+  .layout-main {
+    color: #eee;
+  }
+
+  .card {
+    background-color: #121212;
+    box-shadow: 0 0
+  }
+} */
+
 .card-main {
   padding: 2em;
 }
 
 .card-main p {
   font-family: "Verdana", "Arial", sans-serif;
+  line-height: 1.7;
 }
 
 .card-blog {
