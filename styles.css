@@ -61,7 +61,12 @@ footer {
   padding: 2em;
 }
 
+.card-main p {
+  font-family: "Verdana", "Arial", sans-serif;
+}
+
 .card-blog {
+  font-family: "Verdana", "Arial", sans-serif;
   padding: 4em 8em;
 }
 
