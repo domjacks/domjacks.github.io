@@ -21,6 +21,10 @@ nav li {
   display: inline-block;
 }
 
+figure {
+  margin: 2em 0;
+}
+
 footer {
   margin: 0.5em 0;
 }
@@ -73,10 +77,6 @@ footer {
   50%{transform: rotate(10deg);}
   75%{transform: rotate(10deg);}
   75%{transform: rotate(-10deg);}
-}
-
-.img-header img {
-  width: 50%;
 }
 
 .note {
