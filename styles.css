@@ -123,13 +123,14 @@ footer {
 
 .blog {
   font-family: "Times", serif;
-  padding: 4rem 20rem;
+  padding: 1em;
+  margin: 4rem 20rem;
   background-color: var(--main-white-color);
 }
 
 @media (max-width: 1200px) {
   .blog {
-    padding: 2rem 4rem;
+    margin: 2rem 4rem;
   }
 }
 
