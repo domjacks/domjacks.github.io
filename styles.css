@@ -34,6 +34,10 @@ figure {
   margin: 2em 0;
 }
 
+figure img {
+  max-width: 100%;
+}
+
 footer {
   font-size: 1rem;
   text-align: center;
