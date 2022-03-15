@@ -1,5 +1,5 @@
 body {
-    --main-background-color: #1f1f1f;
+    --main-dark-grey-color: #1f1f1f;
     --main-grey-color: #454545;
     --main-white-color: #eee;
     --main-orange-color: #ffbd69;
@@ -8,7 +8,7 @@ body {
     font-family: "Courier New", "Courier", serif;
     font-size: 1.2rem;
     color: var(--main-grey-color);
-    background-color: var(--main-background-color)
+    background-color: var(--main-white-color)
 }
 
 h1, h2 {
@@ -125,7 +125,6 @@ footer {
   font-family: "Times", serif;
   padding: 1em;
   margin: 4rem 20rem;
-  background-color: var(--main-white-color);
 }
 
 @media (max-width: 1200px) {
@@ -139,9 +138,12 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--main-dark-grey-color);
+  }
+
   .blog {
     color: var(--main-white-color);
-    background-color: var(--main-background-color);
   }
 
   .blog a {
