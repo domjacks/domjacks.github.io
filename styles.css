@@ -14,15 +14,11 @@ h1, h2 {
 }
 
 a {
-  color: #eee;
+  color: #454545;
 }
 
 a:visited {
-  color: #eee
-}
-
-a:hover {
-  text-decoration: none;
+  color: #454545
 }
 
 nav ul {
@@ -98,12 +94,7 @@ footer {
 }
 
 .card-main a {
-  color: #454545;
   text-decoration: none;
-}
-
-.card-main a:visited {
-  color: #454545;
 }
 
 .card-main a:hover {
@@ -124,6 +115,11 @@ footer {
 .blog {
   font-family: "Verdana", "Arial", sans-serif;
   padding: 4em 8em;
+  background-color: white;
+}
+
+.blog a:hover {
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
