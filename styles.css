@@ -115,7 +115,7 @@ footer {
 .blog {
   font-family: "Verdana", "Arial", sans-serif;
   padding: 4em 8em;
-  background-color: white;
+  background-color: #eee;
 }
 
 .blog a:hover {
