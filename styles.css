@@ -121,6 +121,7 @@ footer {
 }
 
 .blog {
+  font-family: "Times", serif;
   background-color: var(--main-white-color);
 }
 
