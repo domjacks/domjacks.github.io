@@ -1,4 +1,5 @@
 body {
+    --main-background-color: #1f1f1f;
     --main-grey-color: #454545;
     --main-white-color: #eee;
     --main-orange-color: #ffbd69;
@@ -7,6 +8,7 @@ body {
     font-family: "Courier New", "Courier", serif;
     font-size: 1.2rem;
     color: var(--main-grey-color);
+    background-color: var(--main-background-color)
 }
 
 h1, h2 {
@@ -138,7 +140,7 @@ footer {
 @media (prefers-color-scheme: dark) {
   .blog {
     color: var(--main-white-color);
-    background-color: #1f1f1f;
+    background-color: var(--main-background-color);
   }
 
   .blog a {
