@@ -1,9 +1,12 @@
 body {
+    --main-grey-color: #454545;
+    --main-white-color: #eee;
+    --main-orange-color: #ffbd69;
     margin: 0;
     padding: 0;
     font-family: "Courier New", "Courier", serif;
     font-size: 1.2rem;
-    color: #454545;
+    color: var(--main-grey-color);
 }
 
 h1, h2 {
@@ -14,11 +17,11 @@ h1, h2 {
 }
 
 a {
-  color: #454545;
+  color: var(--main-grey-color);
 }
 
 a:visited {
-  color: #454545
+  color: var(--main-grey-color)
 }
 
 nav ul {
@@ -88,13 +91,13 @@ footer {
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  background-color: #ffbd69;
+  background-color: var(--main-orange-color);
 }
 
 .card-main {
   padding: 2em;
   margin: 1em;
-  background-color: #eee;
+  background-color: var(--main-white-color);
   box-shadow: 10px 10px;
 }
 
@@ -118,9 +121,7 @@ footer {
 }
 
 .blog {
-  font-family: "Verdana", "Arial", sans-serif;
-  padding: 4rem 8rem;
-  background-color: #eee;
+  background-color: var(--main-white-color);
 }
 
 @media (max-width: 750px) {
@@ -135,11 +136,11 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   .blog {
-    color: #eee;
+    color: var(--main-white-color);
     background-color: #1f1f1f;
   }
 
   .blog a {
-    color: rgb(173, 173, 173)
+    color: var(--main-orange-color)
   }
 }
