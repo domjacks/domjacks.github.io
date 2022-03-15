@@ -1,7 +1,7 @@
 let ticking = false;
 
 function setRandomBackgroundColour() {
-    document.querySelector('.layout-main').style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);}
+    document.querySelector('.card-layout').style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16);}
 
 function changeBackgroundColour() {
   if (!ticking) {
