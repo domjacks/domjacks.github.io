@@ -120,6 +120,7 @@ footer {
 
 .blog {
   font-family: "Playfair Display", "Times", serif;
+  line-height: 1.5;
   padding: 1em;
   margin: 4rem 20rem;
 }
