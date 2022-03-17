@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 body {
     --main-dark-grey-color: #1f1f1f;
     --main-grey-color: #454545;
@@ -5,14 +7,14 @@ body {
     --main-orange-color: #ffbd69;
     margin: 0;
     padding: 0;
-    font-family: "Courier New", "Courier", serif;
+    font-family: "Playfair Display", "Times", sans-serif;
     font-size: 1.2rem;
     color: var(--main-grey-color);
     background-color: var(--main-white-color)
 }
 
 h1, h2 {
-  font-family: "Impact", "Courier New", "Courier", serif;
+  font-family: "Impact", serif;
   font-weight: normal;
   letter-spacing: 0.1rem;
   margin: 0.5rem 0;
@@ -63,7 +65,6 @@ footer {
 	49%{opacity: 0}
 	50% {opacity: 1}
 }
-  
 
 .bio {
   text-align: center;
@@ -97,6 +98,7 @@ footer {
 }
 
 .card-main {
+  font-family: "Courier New", "Courier";
   padding: 2em;
   margin: 1em;
   background-color: var(--main-white-color);
@@ -111,18 +113,13 @@ footer {
   text-decoration: underline;
 }
 
-.card-main p {
-  font-family: "Verdana", "Arial", sans-serif;
-  line-height: 1.7;
-}
-
 .card-header {
   font-size: 3rem;
   margin-top: 1%;
 }
 
 .blog {
-  font-family: "Times", serif;
+  font-family: "Playfair Display", "Times", serif;
   padding: 1em;
   margin: 4rem 20rem;
 }
