@@ -124,9 +124,15 @@ footer {
   margin: 4rem 20rem;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .blog {
     margin: 2rem 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog {
+    margin: 2rem 1rem;
   }
 }
 
