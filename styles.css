@@ -51,6 +51,16 @@ footer {
   margin: 0.5em 0;
 }
 
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 .note {
   font-style: italic;
   font-size: 80%;
