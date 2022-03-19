@@ -144,6 +144,15 @@ footer li {
   max-width: 40rem;
 }
 
+header h1 a {
+  color: var(--main-orange-color);
+  text-decoration: none;
+}
+
+header h1 a:visited {
+  color: var(--main-orange-color);;
+}
+
 .blog a:hover {
   text-decoration: none;
 }
