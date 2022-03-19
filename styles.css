@@ -132,19 +132,8 @@ footer li {
   font-family: "Playfair Display", "Times", serif;
   line-height: 1.5;
   padding: 1em;
-  margin: 4rem 20rem;
-}
-
-@media (max-width: 1024px) {
-  .blog {
-    margin: 2rem 4rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .blog {
-    margin: 2rem 1rem;
-  }
+  margin: auto;
+  max-width: 40rem;
 }
 
 .blog a:hover {
