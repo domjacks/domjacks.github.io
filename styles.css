@@ -16,8 +16,13 @@ body {
 h1, h2 {
   font-family: "Impact", serif;
   font-weight: normal;
+  font-size: 3rem;
   letter-spacing: 0.1rem;
   margin: 0.5rem 0;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 a {
@@ -121,11 +126,6 @@ footer li {
 
 .card-main a:hover {
   text-decoration: underline;
-}
-
-.card-header {
-  font-size: 3rem;
-  margin-top: 1%;
 }
 
 .blog {
