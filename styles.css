@@ -4,7 +4,7 @@ body {
     --main-dark-grey-color: #1f1f1f;
     --main-grey-color: #454545;
     --main-white-color: #eee;
-    --main-orange-color: #ffbd69;
+    --main-orange-color: #e38b1b;
     margin: 0;
     padding: 0;
     font-family: "Playfair Display", "Times", sans-serif;
@@ -26,11 +26,11 @@ h2 {
 }
 
 a {
-  color: var(--main-grey-color);
+  color: var(--main-orange-color);
 }
 
 a:visited {
-  color: var(--main-grey-color)
+  color: var(--main-orange-color)
 }
 
 nav ul {
@@ -40,6 +40,14 @@ nav ul {
 
 nav li {
   display: inline-block;
+}
+
+nav a {
+  color: var(--main-grey-color)
+}
+
+nav a:visited {
+  color: var(--main-grey-color)
 }
 
 figure {
@@ -109,7 +117,7 @@ footer li {
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  background-color: var(--main-orange-color);
+  background-color: #ffbd69;
 }
 
 .card-main {
@@ -147,9 +155,5 @@ footer li {
 
   .blog {
     color: var(--main-white-color);
-  }
-
-  .blog a {
-    color: var(--main-orange-color)
   }
 }
