@@ -94,7 +94,18 @@
             <li>%x - writes the next argument as an unsigned base 16 (hex) number</li>
         </ul>
         <p>
-            once finishing this function, the tutorial then went through using this function to output a conversion chart which shows a list of numbers in base 10, binary, hexadecimal, octal and ASCII. this is the end of the screen series of tutorials. next challenge is input from the keyboard. i know this is going to be very tricky as USB drivers can be a pain to implement even though they are designed to be a simple interface. i'm interested to see how the tutorial tackles this.
+            once finishing this function, the tutorial then went through using this function to output a conversion chart which shows a list of numbers in base 10, binary, hexadecimal, octal and ASCII. this is the end of the screen series of tutorials.
+        </p>
+        <h3>keyboard input</h3>
+        <p>
+            next challenge is input from the keyboard. this is particularly tricky as USB drivers can be a pain to implement even though they are designed to be a simple interface. luckily alexander went ahead and wrote a driver for us. he did mention it took him weeks to complete so i'm kinda glad the tutorial has skipped over that part. what the tutorial does cover, however, is how to 'link' in other peoples code. in this case, how we tell the operating system to load in the functions from the USB driver. 
+        </p>
+        <p>
+            the tutorial then covers lookup tables and in this case, a lookup table which maps keys to characters. i then had to implement a function that takes the key that has been pressed, and then returns the character associated with it from the lookup table. from there it's a simple case of calling the function continually and drawing the characters to the screen.
+        </p>
+        <img width=500 src="../images/pios-text.jpg" alt="computer screen with text on it">
+        <p>
+            and at this point i finished the tutorial. i managed to take input from a keyboard and display is on screen. there is one more lesson which goes further and turns your os into a full text terminal. but that's for another day.
         </p>
         <p> 
             -dom
