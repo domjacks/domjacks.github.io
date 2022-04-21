@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Dom Jackson</title>
+
+        <meta name="author" content="Dom Jackson">
+        <meta name="description" content="Dom Jackson's personal site">
+        <link rel="canonical" href="https://www.domjackson.xyz">
+
+        <meta property="og:image" content="https://www.domjackson.xyz/icons/icon-256x256.png">
+        <meta property="og:title" content="Dom Jackson">
+        <meta property="og:description" content="Dom Jackson is a Software Engineer from the UK">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="icon" href="icons/favicon-32x32.png">
+
+        <meta name="theme-color" content="#ffa500">
+        <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png">
+        <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png">
+        <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png">
+    </head>
+
+    <body>
+        <div class="layout-main">
+           <div id="vid"></div>
+        </div>
+    </body>
+    <script type="module">
+        import { BigscreenPlayer } from 'http://localhost:8080/dist-local/esm/main.js'
+        window.bigscreenPlayer = {playbackStrategy: 'msestrategy'}
+
+        let player = BigscreenPlayer()
+        window.bsp_player = player
+
+        let playbackElement = document.getElementById('vid')
+        playbackElement.style.height = '720px';
+        playbackElement.style.width = '1280px';
+
+        let minimalData = {
+            initialPlaybackTime: 0,
+            media: {
+            captions: [],
+            type: 'application/dash+xml',
+            mimeType: 'video/mp4',
+            kind: 'video',
+            urls: [{
+                url: 'http://localhost:8081/stream.mpd',
+                cdn: ''
+            }]
+            }
+        };
+
+        player.init(playbackElement, minimalData, 'staticWindow', false,
+        {
+        onSuccess: () => {},
+        onError: function () {
+            player.toggleDebug();
+            DebugTool.info('Initialisation failed.')
+        }
+        });
+
+
+    </script>
+</html>
