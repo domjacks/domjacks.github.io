@@ -1,0 +1,19 @@
+body {
+  --main-dark-grey-color: #1f1f1f;
+  --main-grey-color: #454545;
+  --main-white-color: #eee;
+  --main-orange-color: #e38b1b;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--main-grey-color);
+  background-color: var(--main-white-color)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

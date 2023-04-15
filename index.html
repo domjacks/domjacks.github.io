@@ -29,21 +29,10 @@
         <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png">
     </head>
     <body>
-        <div class="card-layout">
-            <section class="card-main bio">
-                <p class="bio-wave"><span role="img" aria-label="wave">👋</span></p>
-                <h1>Dom Jackson</h1>
-                <h2><span class="blink">></span> software engineer</h2>
-                <nav>
-                    <ul>
-                        <li><a href="/now">/now</a></li>
-                        <li><a href="/readme">/readme</a></li>
-                        <li><a href="https://github.com/domjacks" target="_blank" rel="noopener noreferrer">/code</a></li>
-                        <li><a href="mailto:hello@domjackson.xyz">/contact</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </div>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root"></div>
+    
+        <script src="/src/index.jsx" type="module"></script>
     </body>
     <script>
         if ('serviceWorker' in navigator) {
@@ -53,5 +42,5 @@
         }
     </script>
     <script async src="secretKode.js"></script>
-    <script async src="scroll-colour.js"></script>
+    <!-- <script async src="scroll-colour.js"></script> -->
 </html>
