@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body {
-    --main-dark-grey-color: #1f1f1f;
-    --main-grey-color: #454545;
-    --main-white-color: #eee;
-    --main-orange-color: #e38b1b;
-    margin: 0;
-    padding: 0;
-    font-family: "Playfair Display", "Times", sans-serif;
-    font-size: 1.2rem;
-    color: var(--main-grey-color);
-    background-color: var(--main-white-color)
-}
-
 h1, h2 {
   font-family: "Impact", serif;
   font-weight: normal;
@@ -31,23 +18,6 @@ a {
 
 a:visited {
   color: var(--main-orange-color)
-}
-
-nav ul {
-  margin: 3rem 0 0 0;
-  list-style-type: none;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  color: var(--main-grey-color)
-}
-
-nav a:visited {
-  color: var(--main-grey-color)
 }
 
 figure {
@@ -79,36 +49,8 @@ footer li {
   font-size: 80%;
 }
 
-.blink {
-  animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-	0% {opacity: 0}
-	49%{opacity: 0}
-	50% {opacity: 1}
-}
-
 .bio {
   text-align: center;
-}
-
-.bio-wave {
-  font-size: 4rem;
-  margin: 5px 0;
-  display: inline-block;
-}
-
-.bio-wave:hover {
-  cursor: default;
-  animation: wave 1s 1;
-}
-
-@keyframes wave {
-  25%{transform: rotate(-10deg);}
-  50%{transform: rotate(10deg);}
-  75%{transform: rotate(10deg);}
-  75%{transform: rotate(-10deg);}
 }
 
 .card-layout {
