@@ -1,24 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-h1, h2 {
-  font-family: "Impact", serif;
-  font-weight: normal;
-  font-size: 3rem;
-  letter-spacing: 0.1rem;
-  margin: 0.5rem 0;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-a {
-  color: var(--main-orange-color);
-}
-
-a:visited {
-  color: var(--main-orange-color)
-}
 
 figure {
   margin: 2em 0;
@@ -26,22 +6,6 @@ figure {
 
 figure img {
   max-width: 100%;
-}
-
-footer {
-  font-size: 1rem;
-  text-align: center;
-  margin: 0.5em 0;
-}
-
-footer ul {
-  padding: 0;
-}
-
-footer li {
-  display: inline-block;
-  text-decoration: none;
-  margin-right: 10px;
 }
 
 .note {
