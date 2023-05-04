@@ -7,15 +7,17 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <>
+    <div class="main">
       <Header />
-      <Routes>
-        <Route path="/" component={Home} />
-        <Route path="/now" component={Now} />
-        <Route path="/readme" component={Readme} />
-      </Routes>
+      <div class="content">
+        <Routes>
+          <Route path="/" component={Home} />
+          <Route path="/now" component={Now} />
+          <Route path="/readme" component={Readme} />
+        </Routes>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
