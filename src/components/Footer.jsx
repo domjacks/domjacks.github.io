@@ -1,6 +1,9 @@
+import styles from './Footer.module.css'
+
+
 function Footer() {
     return (
-        <footer>
+        <footer class={styles.footer}>
             &copy; dom jackson
         </footer>
     )
