@@ -1,19 +1,17 @@
-import styles from './Home.module.css'
+import './Home.css'
 
-function Home() {
+export default function Home() {
     return (
-        <div class={styles.home}>
+        <div class=".home">
             <p>
-                <span role="img" aria-label="wave" class={styles.bioWave}>
+                <span role="img" aria-label="wave" class="bioWave">
                     👋
                 </span>
             </p>
             <h1>
                 Dom Jackson
             </h1>
-            <h2><span class={styles.blink}>&gt;</span> software engineer</h2>
+            <h2><span class="blink">&gt;</span> software engineer</h2>
         </div>
     )
 }
-
-export default Home

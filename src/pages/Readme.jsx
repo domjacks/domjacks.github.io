@@ -1,4 +1,4 @@
-function Readme() {
+export default function Readme() {
     return (
         <>
             <article>
@@ -14,5 +14,3 @@ function Readme() {
         </>
     )
 }
-
-export default Readme

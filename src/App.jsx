@@ -1,24 +1,16 @@
-import { Route, Routes } from "@solidjs/router";
+import Router from 'preact-router';
 import Home from './pages/Home'
 import Now from './pages/Now'
 import Readme from './pages/Readme'
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 
-function App() {
+import './App.css'
+
+export function App() {
   return (
-    <div class="main">
-      <Header />
-      <div class="content">
-        <Routes>
-          <Route path="/" component={Home} />
-          <Route path="/now" component={Now} />
-          <Route path="/readme" component={Readme} />
-        </Routes>
-      </div>
-      <Footer />
-    </div>
-  );
+    <Router>
+      <Home path="/"/>
+      <Now path="/now"/>
+      <Readme path="/readme"/>
+    </Router>
+  )
 }
-
-export default App;

@@ -1,4 +1,4 @@
-function Now() {
+export default function Now() {
     return (
         <>
             <article>
@@ -15,5 +15,3 @@ function Now() {
         </>
     )
 }
-
-export default Now
