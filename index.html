@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Dom Jackson</title>
-        <meta name="author" content="Dom Jackson">
-        <meta name="description" content="Dom Jackson's personal site">
-        <link rel="canonical" href="https://www.domjackson.xyz">
+<head>
+    <meta charSet="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <title>Dom Jackson</title>
+    <meta name="author" content="Dom Jackson">
+    <meta name="description" content="Dom Jackson's personal site">
+    <link rel="canonical" href="https://www.domjackson.xyz">
 
-        <meta property="og:image" content="https://www.domjackson.xyz/icons/icon-256x256.png">
-        <meta property="og:title" content="Dom Jackson">
-        <meta property="og:description" content="Dom Jackson is a Software Engineer from the UK">
+    <meta property="og:image" content="https://www.domjackson.xyz/icons/icon-256x256.png">
+    <meta property="og:title" content="Dom Jackson">
+    <meta property="og:description" content="Dom Jackson is a Software Engineer from the UK">
 
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="icons/favicon-32x32.png">
-        <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icons/favicon-32x32.png">
+    <link rel="manifest" href="manifest.json">
 
-        <meta name="theme-color" content="#ffa500">
-        <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png">
-        <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png">
-        <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png">
-        <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png">
-    </head>
-    <body>
-        <div class="card-layout">
-            <section class="card-main bio">
-                <p class="bio-wave"><span role="img" aria-label="wave">👋</span></p>
-                <h1>Dom Jackson</h1>
-                <h2><span class="blink">></span> software engineer</h2>
-                <nav>
-                    <ul>
-                        <li><a href="/now">/now</a></li>
-                        <li><a href="https://github.com/domjacks" target="_blank" rel="noopener noreferrer">/code</a></li>
-                        <li><a href="mailto:hello@domjackson.xyz">/contact</a></li>
-                    </ul>
-                </nav>
-            </section>
-        </div>
-    </body>
-    <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/sw.js');
-            });
-        }
-    </script>
-    <script async src="secretKode.js"></script>
-    <script async src="scroll-colour.js"></script>
+    <meta name="theme-color" content="#ffa500">
+    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png">
+</head>
+
+<body>
+    <header>
+        <h1 id="title"><span class="bio-wave" role="img" aria-label="wave">👋</span> <a href="/">Dom Jackson</a></h1>
+    </header>
+    <article>
+        <ul>
+            <li>
+                <p>14/03/22 - <a href="blog/putting-the-comfy-pants-away.html">putting the comfy pants away</a></p>
+            </li>
+            <li>
+                <p>13/03/22 - <a href="blog/doing-less.html">doing less</a></p>
+            </li>
+            <li>
+                <p>18/04/21 - <a href="blog/now-page.html">i've created a /now page</a></p>
+            </li>
+            <li>
+                <p>20/06/15 - <a href="blog/contributing-to-ddg.html">contributing to duckduckgo</a></p>
+            </li>
+            <li>
+                <p>30/01/15 - <a href="blog/pios">creating an operating system for a raspberry pi</a></p>
+            </li>
+            <li>
+                <p>23/11/14 - <a href="blog/haskell.html">haskell just gets me</a></p>
+            </li>
+            <li>
+                <p>21/01/14 - <a href="blog/being-stressed.html">being stressed</a></p>
+            </li>
+        </ul>
+    </article>
+    <hr>
+    <footer>
+        <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/now.html">now</a></li>
+            <li><a href="https://github.com/domjacks" target="_blank" rel="noopener noreferrer">code</a></li>
+            <li><a href="/rss.xml">rss</a></li>
+            <li><a href="mailto:hello@domjackson.xyz">contact</a></li>
+        </ul>
+        <p>&copy; dom jackson 2024</p>
+        <p class="note">last updated: 27th January 2024</p>
+    </footer>
+</body>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function () {
+            navigator.serviceWorker.register('/sw.js');
+        });
+    }
+</script>
+<script async src="secretKode.js"></script>
 </html>

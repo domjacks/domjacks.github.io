@@ -5,12 +5,14 @@ body {
     --main-grey-color: #454545;
     --main-white-color: #eee;
     --main-orange-color: #e38b1b;
-    margin: 0;
-    padding: 0;
     font-family: "Playfair Display", "Times", sans-serif;
     font-size: 1.2rem;
     color: var(--main-grey-color);
-    background-color: var(--main-white-color)
+    background-color: var(--main-white-color);
+    line-height: 1.5;
+    padding: 1em;
+    margin: auto;
+    max-width: 40rem;
 }
 
 h1, h2 {
@@ -25,12 +27,34 @@ h2 {
   font-size: 2rem;
 }
 
+header h1 a {
+  color: var(--main-orange-color);
+  text-decoration: none;
+}
+
+header h1 a:visited {
+  color: var(--main-orange-color);
+}
+
+.bio-wave {
+  display: inline-block;
+}
+
+.bio-wave:hover {
+  cursor: default;
+  animation: wave 1s 1;
+}
+
 a {
   color: var(--main-orange-color);
 }
 
 a:visited {
   color: var(--main-orange-color)
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 nav ul {
@@ -79,31 +103,6 @@ footer li {
   font-size: 80%;
 }
 
-.blink {
-  animation: blink 1s step-end infinite;
-}
-
-@keyframes blink {
-	0% {opacity: 0}
-	49%{opacity: 0}
-	50% {opacity: 1}
-}
-
-.bio {
-  text-align: center;
-}
-
-.bio-wave {
-  font-size: 4rem;
-  margin: 5px 0;
-  display: inline-block;
-}
-
-.bio-wave:hover {
-  cursor: default;
-  animation: wave 1s 1;
-}
-
 @keyframes wave {
   25%{transform: rotate(-10deg);}
   50%{transform: rotate(10deg);}
@@ -111,58 +110,9 @@ footer li {
   75%{transform: rotate(-10deg);}
 }
 
-.card-layout {
-  min-height: 100vh;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffbd69;
-}
-
-.card-main {
-  font-family: "Courier New", "Courier";
-  padding: 2em;
-  margin: 1em;
-  background-color: var(--main-white-color);
-  box-shadow: 10px 10px;
-}
-
-.card-main a {
-  text-decoration: none;
-}
-
-.card-main a:hover {
-  text-decoration: underline;
-}
-
-.blog {
-  font-family: "Playfair Display", "Times", serif;
-  line-height: 1.5;
-  padding: 1em;
-  margin: auto;
-  max-width: 40rem;
-}
-
-header h1 a {
-  color: var(--main-orange-color);
-  text-decoration: none;
-}
-
-header h1 a:visited {
-  color: var(--main-orange-color);;
-}
-
-.blog a:hover {
-  text-decoration: none;
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--main-dark-grey-color);
-  }
-
-  .blog {
     color: var(--main-white-color);
   }
 }
