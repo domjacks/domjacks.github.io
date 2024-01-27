@@ -10,11 +10,19 @@
     <meta name="description" content="Doing less">
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/icons/favicon-32x32.png">
+
+    <script src="/theme.js"></script>
 </head>
 
 <body>
     <header>
-        <h1><a href="/">Dom Jackson</a></h1>
+        <h1>
+            <span class="bio-wave" role="img" aria-label="wave">👋</span>
+            <a href="/">Dom Jackson</a> <label class="toggle">
+            <input id="darkMode" class="toggle-checkbox" type="checkbox" checked>
+            <div class="toggle-switch"></div>
+        </label>
+        </h1>
     </header>
     <article>
         <h2>doing less</h2>
@@ -110,10 +118,14 @@
     <footer>
         <ul>
             <li><a href="/">home</a></li>
+            <li><a href="/now.html">now</a></li>
+            <li><a href="https://github.com/domjacks" target="_blank" rel="noopener noreferrer">code</a></li>
             <li><a href="/rss.xml">rss</a></li>
+            <li><a href="mailto:hello@domjackson.xyz">contact</a></li>
         </ul>
-        <p>&copy; dom jackson</p>
-    </footer> 
+        <p>&copy; dom jackson 2024</p>
+        <p class="note">last updated: 27th January 2024</p>
+    </footer>
 </body>
 
 </html>

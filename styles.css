@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+:root {
+  --main-dark-grey-color: #1f1f1f;
+  --main-grey-color: #454545;
+  --main-white-color: #eee;
+  --main-orange-color: #e38b1b;
+  color: var(--main-grey-color);
+  background-color: var(--main-white-color);
+}
 body {
-    --main-dark-grey-color: #1f1f1f;
-    --main-grey-color: #454545;
-    --main-white-color: #eee;
-    --main-orange-color: #e38b1b;
+
     font-family: "Playfair Display", "Times", sans-serif;
     font-size: 1.2rem;
-    color: var(--main-grey-color);
-    background-color: var(--main-white-color);
     line-height: 1.5;
     padding: 1em;
     margin: auto;
     max-width: 40rem;
+}
+
+.dark-mode {
+  background-color: var(--main-dark-grey-color);
+  color: var(--main-white-color);
 }
 
 h1, h2 {
@@ -43,6 +51,56 @@ header h1 a:visited {
 .bio-wave:hover {
   cursor: default;
   animation: wave 1s 1;
+}
+
+.toggle {
+	cursor: pointer;
+	display: inline-block;
+}
+.toggle-switch {
+	display: inline-block;
+	background: #ccc;
+	border-radius: 16px;
+	width: 58px;
+	height: 32px;
+	position: relative;
+	vertical-align: middle;
+	transition: background 0.25s;
+	&:before,
+	&:after {
+		content: "";
+	}
+	&:before {
+		display: block;
+		background: linear-gradient(to bottom, #fff 0%,#eee 100%);
+		border-radius: 50%;
+		box-shadow: 0 0 0 1px rgba(0,0,0,0.25);
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		transition: left 0.25s;
+	}
+	.toggle:hover &:before {
+		background: linear-gradient(to bottom, #fff 0%,#fff 100%);
+		box-shadow: 0 0 0 1px rgba(0,0,0,0.5);
+	}
+	.toggle-checkbox:checked + & {
+		background: var(--main-orange-color);
+		&:before {
+			left: 30px;
+		}
+	}
+}
+.toggle-checkbox {
+	position: absolute;
+	visibility: hidden;
+}
+.toggle-label {
+	margin-left: 5px;
+	position: relative;
+	top: 2px;
 }
 
 a {
@@ -110,9 +168,9 @@ footer li {
   75%{transform: rotate(-10deg);}
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--main-dark-grey-color);
     color: var(--main-white-color);
   }
-}
+} */
