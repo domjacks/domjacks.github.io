@@ -4,11 +4,6 @@
         <description>Dom Jackson's blog RSS</description>
         <link>https://www.domjackson.xyz</link>
         <item>
-            <title>being stressed</title>
-            <link>https://www.domjackson.xyz/blog/being-stressed.html</link>
-            <description />
-        </item>
-        <item>
             <title>haskell just gets me</title>
             <link>https://www.domjackson.xyz/blog/haskell.html</link>
             <description />
