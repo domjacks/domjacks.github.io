@@ -9,7 +9,6 @@
   background-color: var(--main-white-color);
 }
 body {
-
     font-family: "Playfair Display", "Times", sans-serif;
     font-size: 1.2rem;
     line-height: 1.5;
@@ -33,6 +32,10 @@ h1, h2 {
 
 h2 {
   font-size: 2rem;
+}
+
+header {
+  text-align: center;
 }
 
 header h1 a {
