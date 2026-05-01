@@ -1,0 +1,19 @@
+{
+  "name": "domjacks.github.io",
+  "version": "1.0.0",
+  "description": "Personal site for Dom Jackson",
+  "type": "module",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --input src/ --output public/",
+    "build": "npx @11ty/eleventy --input src/ --output public/",
+    "serve": "npx @11ty/eleventy --serve --input src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domjacks/domjacks.github.io.git"
+  },
+  "author": "domjacks",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}
